@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("sandy1257/dockertask")
+        app = docker.build("sandy1257/dockerhub")
     }
 
     stage('Test image') {
